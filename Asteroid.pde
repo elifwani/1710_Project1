@@ -13,7 +13,7 @@ class Asteroid {
     x = random(width);
     y = random(50, height - 150);
     yspeed = random(0.5, 5.0);
-    r = 10;
+    r = 20;
 
 
 

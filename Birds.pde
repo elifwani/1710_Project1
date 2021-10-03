@@ -1,4 +1,4 @@
-class Starships {
+class Birds {
 
   float x;
   float y;
@@ -12,11 +12,11 @@ class Starships {
 
   float drag = 30.0;
   
-  float r = 10;
+  float r = 20;
 
 
 
-  Starships(float tempsizeX, float tempsizeY) {
+  Birds(float tempsizeX, float tempsizeY) {
     sizeX = tempsizeX;
     sizeY = tempsizeY;
   }
@@ -29,7 +29,7 @@ class Starships {
 
 
     imageMode(CENTER);
-    image(starship, xpos, ypos, sizeX, sizeY);
+    image(bird, xpos, ypos, sizeX, sizeY);
   }
   
   boolean overlaps(Asteroid other) {

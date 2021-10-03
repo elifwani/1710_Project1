@@ -3,7 +3,7 @@ PImage asteroid;
 PImage terrain;
 PImage pods;
 PImage rocks;
-PImage starship;
+PImage bird;
 PImage kaboom;
 
 
@@ -17,7 +17,7 @@ Background i1;
 Background i2;
 Background i3;
 
-Starships s1 = new Starships(50, 50);
+Birds s1 = new Birds(200, 200);
 
 void setup() {
   size(720, 480, P2D);
@@ -30,7 +30,7 @@ void setup() {
   asteroid  = loadImage("asteroid.png");
   pods = loadImage("pods.png");
   rocks = loadImage("rocks.png");
-  starship = loadImage("starship.png");
+  bird = loadImage("bird.png");
   kaboom = loadImage("kaboom.png");
 }
 
